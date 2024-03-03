@@ -20,6 +20,9 @@
 using namespace std;
 
 
+//the crux is - we say we have cycle only when the nebour of the present node is visited but is
+//this nbr is also not the parent of the present node
+
 class Graph
 {
     int V;

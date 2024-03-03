@@ -59,7 +59,7 @@ class Graph
 
   bool bipartiteOrNot()
   {
-    bool* visited=new bool[V]{0};
+        
     bool* clr =new bool[V]{0};
 
     return dfs(-1,0,visited,clr,true);
